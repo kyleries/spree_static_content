@@ -23,4 +23,9 @@
   <div id="page_content">
     <%= raw @page.body %>
   </div>
+  <% if@page.meta_title == "contact" %>
+    <div id="contact-form">
+      TEST CONTACT FORM DISPLAY
+    </div>
+  <% end %>
 <% end %>
